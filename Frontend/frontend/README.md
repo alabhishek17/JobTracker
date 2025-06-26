@@ -1,12 +1,67 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧰 Job Tracker App
 
-Currently, two official plugins are available:
+A full-stack job application tracker built using **React**, **Node.js**, **Express**, and **MongoDB**.  
+Users can **sign up**, **log in**, and **manage job applications** with status updates and notes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+ ## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ User Authentication (Signup/Login)
+- ✅ Secure password hashing using `bcrypt`
+- ✅ JWT token-based protected routes
+- ✅ Add, Edit, Delete job applications
+- ✅ Responsive Dashboard UI
+
+## ⚙️ Tech Stack
+
+### Frontend
+- React.js (Vite)
+- Axios
+- React Router DOM
+- CSS Modules
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (with Mongoose)
+- JSON Web Token (JWT)
+- bcrypt
+
+---
+
+## 🔑 Environment Variables
+
+### Backend `.env`
+
+```env
+PORT=10000
+MONGO_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/JobTracker
+JWT_SECRET=your_jwt_secret
+
+## Author
+
+- **Abhishek**: As the sole developer, Abhishek conceptualized and implemented this application, leveraging his expertise in web development and user experience design.
+  
+
+
+## Technologies Used
+- **Node.js:** JavaScript runtime environment for building scalable network applications.
+- **Express.js:** Web application framework for Node.js, providing a robust set of features for web and mobile applications.
+- **MongoDB:** NoSQL database for storing user and post data.
+- **Mongoose:** Object Data Modeling (ODM) library for MongoDB and Node.js.
+- **Cloudinary:** Cloud-based media management platform
+
+## Development Tools 
+- **Nodemon:** Tool for automatically restarting the Node.js - - application when file changes in the directory are detected.
+- **Postman:** Platform for API development, testing, and collaboration.
+- **VS Code:** Code editor for development
+
+
+## Gratitude
+We sincerely thank you for exploring Threads Application. We hope it serves you well in crafting the perfect resume and advancing your career journey.
+
+
+
+
