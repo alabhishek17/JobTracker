@@ -40,6 +40,12 @@ PORT=10000
 MONGO_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/JobTracker
 JWT_SECRET=your_jwt_secret
 
+![Signup Screenshot](./assets/job11.png)
+![login Screenshot](./assets/job2.png)
+![Dashboard Screenshot](./assets/job3.png)
+![Dashboard2 Screenshot](./assets/job4.png)
+
+
 ## Author
 
 - **Abhishek**: As the sole developer, Abhishek conceptualized and implemented this application, leveraging his expertise in web development and user experience design.
